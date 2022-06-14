@@ -1,5 +1,5 @@
 
-var allpage = 3;  //總頁數
+var allpage = 5;  //總頁數
 
 var pagenum = 1;
 
