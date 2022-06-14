@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html style="padding: 0px;height:100vh">
+<head>
+<title>Page</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="./css/bass.css">
+<script src="./javascript/table.js"></script>
+
+
+</head>
+
+<body onload="startTime()">
+    <div style="background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(50, 50, 50, 0.4));padding: 40px;height:100%;">
+
+        <div class="page">
+
+            <div id="p1">
+            <div class="top">
+                <div class="a"></div>
+                <div class="b">目錄</div>
+                <div class="c"></div>
+            </div>
+
+            <p class="p" style="border-top-style: solid;" onclick="page(2);">為什麼模範生容易被綁架?</p>
+            <p class="p" onclick="page(3);">為什麼連假的時候不能去工作？</p>
+                
+
+
+            </div>
+
+
+            <div class="p2" id="p2">
+                <div class="top">
+                    <div class="a"></div>
+                    <div class="b">為什麼模範生容易被綁架?</div>
+                    <div class="c"></div>
+                </div>
+    
+                <p>因為他一副好綁樣....</p>  
+    
+            </div>
+
+            <div class="p2" id="p3">
+                <div class="top">
+                    <div class="a"></div>
+                    <div class="b">為什麼連假的時候不能去工作？</div>
+                    <div class="c"></div>
+                </div>
+    
+                <p>因為會變成連假勞工</p>  
+    
+            </div>
+            
+
+
+        </div>
+
+        <div class="control">
+            <div class="a" onclick="Previous(pagenum);">＜</div>
+            <div class="b" onclick="Table();">目錄</div>
+            <div class="c" onclick="next(pagenum);">＞</div>
+        </div>
+
+    </div>
+    
+</body>
+
+</html>
